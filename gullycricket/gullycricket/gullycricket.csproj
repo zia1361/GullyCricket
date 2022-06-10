@@ -113,6 +113,7 @@
     <Content Include="assets\assets\css\style.css" />
     <Content Include="assets\assets\img\apple-touch-icon.png" />
     <Content Include="assets\assets\img\card.jpg" />
+    <Content Include="assets\assets\img\favicon.ico" />
     <Content Include="assets\assets\img\favicon.png" />
     <Content Include="assets\assets\img\logo.png" />
     <Content Include="assets\assets\img\messages-1.jpg" />
