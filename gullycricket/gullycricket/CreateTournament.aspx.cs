@@ -1,4 +1,5 @@
-﻿using gullycricket.ModalClasses;
+﻿using gullycricket.Backbone;
+using gullycricket.ModalClasses;
 using gullycricket.Model_Classes;
 using gullycricket.Services;
 using System;
@@ -10,18 +11,11 @@ using System.Web.UI.WebControls;
 
 namespace gullycricket
 {
-    public partial class CreateTournament : System.Web.UI.Page
+    public partial class CreateTournament : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                var oUser = SessionService.GetCurrentUser().oUser;
-                if (oUser == null)
-                {
-                    Response.Redirect("pages-error-404.html");
-                }
-            }
+            
             MessageBox.ClearMessage();
         }
 
